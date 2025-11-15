@@ -3,7 +3,6 @@
 A Python application that uses OpenCV and Google's MediaPipe library to detect hands in a webcam feed and count the number of extended fingers in real-time. The project includes both a standalone desktop application and a web version powered by Flask that streams the output to a browser.
 
  
-*(You can replace this with a GIF of your project in action!)*
 
 ---
 

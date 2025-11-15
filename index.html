@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Finger Counting Live Stream</title>
+    <style>
+        body { background-color: #2c3e50; color: #ecf0f1; font-family: sans-serif; text-align: center; }
+        h1 { margin-top: 20px; }
+        img { border: 5px solid #3498db; border-radius: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Finger Counting - Live Webcam Feed</h1>
+    <img src="{{ url_for('video_feed') }}" width="640" height="480">
+</body>
+</html>
